@@ -29,7 +29,7 @@ files:
 - mysql.c.in
 - test.rb
 - tommy.css
-- gemspec
+- mysql.gemspec
 has_rdoc: false
 homepage: http://www.tmtm.org/en/mysql/ruby/
 post_install_message:
