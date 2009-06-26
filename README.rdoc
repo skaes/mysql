@@ -1,0 +1,18 @@
+== An optimized version of the native mysql adapter for ruby
+
+This code was written 3 years ago. I'm only putting it here for reference purposes.
+
+It incorporates the following added functionality:
+
+* a method all_rows to return all rows returned from a query as an array
+* a method all_hashes to return all rows represented as hashes in an array
+
+Both methods are implemented in a way to ensure each column name
+creates exactly one string.
+
+See http://railsexpress.de/blog/articles/2006/10/05/make-ruby-mysql-create-less-garbage for an explanation.
+
+The current official version of ruby-mysql incorporates a similar
+strategy, but I haven't had time to study it in detail, yet.
+
+See http://github.com/tmtm/ruby-mysql/tree/master
